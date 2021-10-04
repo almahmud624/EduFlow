@@ -7,7 +7,7 @@ const AboutUs = () => {
                 <div className="grid place-content-center bg-gray-900 h-full text-gray-50 p-11 rounded-l-lg">
                     <div>
                         <h1 className="text-7xl font-semibold pb-4 capitalize">What we do</h1>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>We start journey to make a skillful genaration who can bring success in his life.</p>
                     </div>
                 </div>
                 <div>

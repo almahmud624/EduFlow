@@ -1,6 +1,5 @@
-import { Disclosure, Menu, Transition } from '@headlessui/react';
-import { ShoppingCartIcon, MenuIcon, XIcon, BellIcon } from '@heroicons/react/outline'
-import React, { Fragment } from 'react';
+import { Disclosure } from '@headlessui/react';
+import { ShoppingCartIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
