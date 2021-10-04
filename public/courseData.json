@@ -1,0 +1,82 @@
+[
+    {
+      "courseName": "The Basic Of Financial Analyst Online Course",
+      "categories": "Marketing",
+      "courseAuthor": "James Karten",
+      "courseDuration": "6 Hours",
+      "courseThumb": "https://image.freepik.com/free-vector/organic-flat-people-business-training-illustration_23-2148901755.jpg",
+      "coursePrice": 33.67,
+      "courseEnrollment": 3121,
+      "courseDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iure repellendus eos! Magni non aperiam iusto eos odio porro asperiores distinctio! Esse, modi. Obcaecati facilis quod debitis nisi ab omnis."
+    },
+    {
+      "courseName": "Advance PHP Knowledge With Laravel To Make Smart Web",
+      "categories": "Development",
+      "courseAuthor": "Roj Lark",
+      "courseDuration": "12 Hours 12 Minutes",
+      "courseThumb": "https://image.freepik.com/free-vector/app-development-concept-illustration_114360-5035.jpg",
+      "coursePrice": 45.67,
+      "courseEnrollment": 5341,
+      "courseDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iure repellendus eos! Magni non aperiam iusto eos odio porro asperiores distinctio! Esse, modi. Obcaecati facilis quod debitis nisi ab omnis."
+    },
+    {
+      "courseName": "The Complete Business Plan Course (Includes 50 Templates)",
+      "categories": "Business",
+      "courseAuthor": "jarae Parol",
+      "courseDuration": "7 Hours",
+      "courseThumb": "https://image.freepik.com/free-vector/organic-flat-people-business-training-illustration_23-2148902493.jpg",
+      "coursePrice": 24,
+      "courseEnrollment": 2301,
+      "courseDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iure repellendus eos! Magni non aperiam iusto eos odio porro asperiores distinctio! Esse, modi. Obcaecati facilis quod debitis nisi ab omnis."
+    },
+    {
+      "courseName": "Microsoft Excel for Beginner",
+      "categories": "Digital Marketing",
+      "courseAuthor": "wirsd radgon",
+      "courseDuration": "8 Hours",
+      "courseThumb": "https://image.freepik.com/free-vector/spreadsheets-concept-illustration_114360-6316.jpg",
+      "coursePrice": 14,
+      "courseEnrollment": 1301,
+      "courseDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iure repellendus eos! Magni non aperiam iusto eos odio porro asperiores distinctio! Esse, modi. Obcaecati facilis quod debitis nisi ab omnis."
+    },
+    {
+      "courseName": "UI/UX Design Pattern For Succesfull Software Applications",
+      "categories": "Design",
+      "courseAuthor": "Tarem Bold",
+      "courseDuration": "9 Hours",
+      "courseThumb": "https://image.freepik.com/free-vector/design-community-concept-illustration_114360-1244.jpg",
+      "coursePrice": 64,
+      "courseEnrollment": 3104,
+      "courseDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iure repellendus eos! Magni non aperiam iusto eos odio porro asperiores distinctio! Esse, modi. Obcaecati facilis quod debitis nisi ab omnis."
+    },
+    {
+      "courseName": "Master Native English Class I Speaking Skills",
+      "categories": "English",
+      "courseAuthor": "Moren Seli",
+      "courseDuration": "14 Hours",
+      "courseThumb": "https://image.freepik.com/free-vector/webinar-concept-illustration_114360-4764.jpg",
+      "coursePrice": 24,
+      "courseEnrollment": 2204,
+      "courseDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iure repellendus eos! Magni non aperiam iusto eos odio porro asperiores distinctio! Esse, modi. Obcaecati facilis quod debitis nisi ab omnis."
+    },
+    {
+      "courseName": "Tableau 2020 A-Z:Hands-On Tableau Training For Data Science!",
+      "categories": "Science",
+      "courseAuthor": "Eeri Maek",
+      "courseDuration": "10 Hours 34 Minutes",
+      "courseThumb": "https://themezhub.net/learnup-demo-2/learnup/assets/img/co-6.jpg",
+      "coursePrice": 54,
+      "courseEnrollment": 5204,
+      "courseDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iure repellendus eos! Magni non aperiam iusto eos odio porro asperiores distinctio! Esse, modi. Obcaecati facilis quod debitis nisi ab omnis."
+    },
+    {
+      "courseName": "React JS, Angular & Vue JS",
+      "categories": "Development",
+      "courseAuthor": "Loren Hope",
+      "courseDuration": "23 Hours 34 Minutes",
+      "courseThumb": "https://image.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg",
+      "coursePrice": 124,
+      "courseEnrollment": 6204,
+      "courseDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iure repellendus eos! Magni non aperiam iusto eos odio porro asperiores distinctio! Esse, modi. Obcaecati facilis quod debitis nisi ab omnis."
+    }
+  ]
