@@ -1,15 +1,18 @@
-import { Disclosure } from '@headlessui/react';
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Disclosure, Menu, Transition } from '@headlessui/react';
+import { ShoppingCartIcon, MenuIcon, XIcon, BellIcon } from '@heroicons/react/outline'
+import React, { Fragment } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
     const navigation = [
-        { name: 'Home', to: '/home', current: true },
+        { name: 'Home', to: '/home', current: false },
         { name: 'Courses', to: '/courses', current: false },
         { name: 'About us', to: '/about', current: false },
         { name: 'Contact Us', to: '/contact', current: false },
     ]
+    function classNames(...classes) {
+        return classes.filter(Boolean).join(' ')
+    }
     return (
         <div>
             <Disclosure as="nav" className="bg-gray-800">
@@ -28,30 +31,25 @@ const Header = () => {
                                         )}
                                     </Disclosure.Button>
                                 </div>
-                                <div className="flex-1 flex items-center md:justify-between sm:items-stretch sm:justify-start">
+                                <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                                     <div className="flex-shrink-0 flex items-center">
-                                        <img
-                                            className="block lg:hidden h-8 w-auto"
-                                            src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                                            alt="Workflow"
-                                        />
-                                        <img
-                                            className="hidden lg:block h-8 w-auto"
-                                            src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
-                                            alt="Workflow"
-                                        />
+                                        <Link to="/home" className="block lg:hidden h-8 w-auto text-white font-semibold text-2xl">EduFlow</Link>
+                                        <Link to="/home" className="hidden lg:block h-8 w-auto text-white font-semibold text-2xl">EduFlow</Link>
                                     </div>
                                     <div className="hidden sm:block sm:ml-6">
                                         <div className="flex space-x-4">
                                             {navigation.map((item) => (
                                                 <NavLink
-                                                    className="text-white font-semibold px-4 py-2"
                                                     key={item.name}
                                                     to={item.to}
                                                     activeStyle={{
-                                                        fontWeight: 'bold',
-                                                        color: 'tomato'
+                                                        backgroundColor: '#991b1b'
                                                     }}
+                                                    className={classNames(
+                                                        item.current ? 'bg-gray-900 text-white' : 'text-white font-semibold text-md hover:bg-red-800 hover:text-white',
+                                                        'px-3 py-2 rounded-md text-sm font-medium'
+                                                    )}
+                                                    aria-current={item.current ? 'page' : undefined}
                                                 >
                                                     {item.name}
                                                 </NavLink>
@@ -62,10 +60,10 @@ const Header = () => {
                                 <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                                     <button
                                         type="button"
-                                        className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                                        className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-1 focus:ring-offset-2 focus:ring-offset-red-800 focus:ring-red-800"
                                     >
-                                        <span className="sr-only">View notifications</span>
-                                        <BellIcon className="h-6 w-6" aria-hidden="true" />
+                                        <span className="sr-only">View Cart</span>
+                                        <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
                                     </button>
                                 </div>
                             </div>
@@ -77,10 +75,10 @@ const Header = () => {
                                     <NavLink
                                         key={item.name}
                                         to={item.to}
-                                        activeStyle={{
-                                            fontWeight: 'bold',
-                                            color: 'tomato'
-                                        }}
+                                        className={classNames(
+                                            item.current ? 'bg-gray-900 text-white' : 'text-white font-semibold text-md hover:bg-red-800 hover:text-white',
+                                            'block px-3 py-2 rounded-md text-base font-medium'
+                                        )}
                                         aria-current={item.current ? 'page' : undefined}
                                     >
                                         {item.name}
