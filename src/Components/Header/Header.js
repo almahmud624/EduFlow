@@ -13,7 +13,7 @@ const Header = () => {
         return classes.filter(Boolean).join(' ')
     }
     return (
-        <div>
+        <div className="sticky top-0 z-50">
             <Disclosure as="nav" className="bg-gray-800">
                 {({ open }) => (
                     <>

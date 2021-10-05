@@ -4,7 +4,7 @@ import { ClockIcon, UserIcon } from '@heroicons/react/outline';
 const Course = (props) => {
     const { courseName, courseThumb, courseDuration, categories, coursePrice, courseEnrollment } = props.course;
     return (
-        <div className="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform  transition duration-500">
+        <div className="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 hover:shadow-md  transition duration-500">
             <div className="relative">
                 <img className="w-full rounded-xl" src={courseThumb} alt="Colors" />
                 <p className="absolute top-0 bg-red-800 text-white font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg">${coursePrice}</p>
@@ -21,7 +21,7 @@ const Course = (props) => {
                     <p className="text-gray-500">{courseDuration}</p>
                 </div>
             </div>
-            <button className="mt-2 mb-4 text-lg w-full text-white bg-red-800 py-1.5 rounded-xl shadow-lg">Enroll now</button>
+            <button className="mt-2 mb-4 text-lg w-full text-white bg-red-800 hover:bg-red-700 transition-all py-1.5 rounded-xl shadow-lg">Enroll now</button>
         </div>
     );
 };

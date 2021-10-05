@@ -7,7 +7,7 @@ import './TopCourses.css';
 const TopCourses = () => {
     const [courses] = useCourses();
     return (
-        <div className="py-7 bg-gray-900">
+        <div className="pt-7 pb-14 bg-gray-900">
             <h1 className="text-6xl font-bold mt-12 capitalize text-white">Our top courses</h1>
             <div className="min-h-screen flex justify-center items-center py-20">
                 <div className="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-7 space-y-4 md:space-y-0">

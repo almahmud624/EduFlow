@@ -3,7 +3,7 @@ import React from 'react';
 const Bannar = () => {
     return (
         <div>
-            <div className="relative bg-white overflow-hidden grid lg:grid-cols-2 md:grid-cold-1 justify-center items-center">
+            <div className="relative bg-white overflow-hidden grid lg:grid-cols-2 md:grid-cols-1 justify-center items-center">
                 <div className="">
                     <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
                         <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
@@ -29,9 +29,9 @@ const Bannar = () => {
                         </main>
                     </div>
                 </div>
-                <div className="">
+                <div className="order-first lg:order-last">
                     <img
-                        className=""
+                        className="inline-block"
                         src="https://image.freepik.com/free-vector/flat-design-online-courses-illustration_52683-37617.jpg"
                         alt=""
                     />
