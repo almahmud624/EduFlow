@@ -1,0 +1,27 @@
+.card:hover {
+    background-color: #991b1b;
+}
+.card:hover .course-title {
+    color:#ffffff;
+}
+.card:hover .course-categories {
+    color:#f3efef;
+    border-color:#f3efef;
+}
+.card:hover .course-extra-info svg,
+.card:hover .course-extra-info p,
+.card:hover .course-categories {
+    color:#f3efef;
+}
+.card:hover .enroll-btn {
+    background-color:#f3efef;
+    color:#991b1b;
+    font-weight: 500;
+}
+.enroll-btn {
+    transition: all .5s;
+}
+.enroll-btn:hover {
+    background-color: #111827 !important;
+    color:#f3efef !important;
+}

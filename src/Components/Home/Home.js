@@ -4,7 +4,7 @@ import TopCourses from '../TopCourses/TopCourses';
 
 const Home = () => {
     return (
-        <div className="container mx-auto px-4">
+        <div>
             <Bannar></Bannar>
             <TopCourses></TopCourses>
         </div>
