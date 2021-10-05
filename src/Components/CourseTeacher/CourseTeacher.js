@@ -7,7 +7,7 @@ const CourseTeacher = () => {
     return (
         <div className="container mx-auto px-4 mt-7">
             <h1 className="text-6xl font-bold mt-12 capitalize">Our Teachers</h1>
-            <div className="min-h-screen flex justify-center items-center pt-10 pb-20">
+            <div className="flex justify-center items-center pt-10 pb-20">
                 <div className="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-4 gap-7 space-y-4 md:space-y-0">
                     {
                         courses?.slice(0, 4).map(course => <div key={Math.random()} className="max-w-sm bg-white shadow-md rounded-lg hover:shadow-xl transition-all overflow-hidden">

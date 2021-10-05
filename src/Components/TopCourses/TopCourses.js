@@ -9,7 +9,7 @@ const TopCourses = () => {
     return (
         <div className="pt-7 pb-14 bg-gray-900">
             <h1 className="text-6xl font-bold mt-12 capitalize text-white">Our top courses</h1>
-            <div className="min-h-screen flex justify-center items-center py-20">
+            <div className="flex justify-center items-center py-20">
                 <div className="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-7 space-y-4 md:space-y-0">
                     {
                         courses?.slice(0, 4).map(course => <div key={Math.random()} className="card max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform transition duration-500">
