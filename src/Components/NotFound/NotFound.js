@@ -5,7 +5,7 @@ import errorImg from '../../utilites/images/error-page.jpg';
 const NotFound = () => {
     return (
         <div>
-            <div className="w-screen bg-white flex items-center py-12">
+            <div className="w-screen lg:h-screen bg-white flex justify-evenly items-center py-12">
                 <div className="container flex flex-col-reverse md:flex-row items-center justify-center px-5 text-gray-700">
                     <div className="flex-1">
                         <div className="text-5xl font-dark font-bold">404</div>
