@@ -1,6 +1,6 @@
 # EduFlow The Biggest Learning Platform
 
-This is online learning site, visit [EduFlow](https://github.com/facebook/create-react-app), Enroll your favourite course & acquire lot skills.
+This is online learning site, visit [EduFlow](https://eduflow.netlify.app/), Enroll your favourite course & acquire lot skills.
 
 ## Features:
 
